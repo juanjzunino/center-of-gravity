@@ -1,0 +1,7 @@
+LocationName;Latitude;Longitude;Volume;LocationType
+Manhattan, NY;40.7831;-73.9712;5000;Demand
+New Haven, CT;41.2982;-72.9991;1000;Demand
+Chicago, Il;41.8333;-88.0121;4000;Demand
+Boston, MA;42.3142;-71.1103;3000;Demand
+Raleigh, NC;35.8436;-78.7851;8000;Supply
+Nashville, TN;36.1863;-87.0654;5000;Supply
