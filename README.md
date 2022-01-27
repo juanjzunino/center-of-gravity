@@ -2,7 +2,7 @@
 
 Python scripts to calculate centers of gravity using KMeans. Please refer to this medium post for more information: https://medium.com/analytics-vidhya/logistics-center-of-gravity-analysis-in-python-a21ad034f849
 
-### Installation
+## Installation
 
 `GravityCenters` can be installed cloning the repo from the command line:
 
@@ -12,7 +12,7 @@ Make sure to have all modules and their dependencies installed
 
 `pip install -r requirements.txt`
 
-### Quickstart
+## Quickstart
 
 Import the `GravityCenters` class from `gravitycenters` and create an instance of the class `GravityCenters`
 
