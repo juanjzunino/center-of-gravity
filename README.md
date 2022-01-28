@@ -17,6 +17,7 @@ Make sure to have all modules and their dependencies installed
 Import the `GravityCenters` class from `center_of_gravity` and create an instance of the class `GravityCenters`
 
 ```python
+from sklearn.cluster import KMeans
 from center_of_gravity import GravityCenters
 
 cogs = GravityCenters(lat=df.Latitude.values,
