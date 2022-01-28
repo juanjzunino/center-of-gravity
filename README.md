@@ -14,10 +14,10 @@ Make sure to have all modules and their dependencies installed
 
 ## Quickstart
 
-Import the `GravityCenters` class from `gravitycenters` and create an instance of the class `GravityCenters`
+Import the `GravityCenters` class from `center_of_gravity` and create an instance of the class `GravityCenters`
 
 ```python
-from gravitycenters import GravityCenters
+from center_of_gravity import GravityCenters
 
 cogs = GravityCenters(lat=df.Latitude.values,
                       lng=df.Longitude.values,
