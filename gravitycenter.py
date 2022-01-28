@@ -38,12 +38,12 @@ class GravityCenters:
         Center's of gravity longitude
     """
 
-    def _init_(self,
-               lat: List[float],
-               lng: List[float],
-               weights: Optional[List[float]] = None,
-               method=KMeans,
-               n_clusters: int = 2) -> None:
+    def __init__(self,
+                 lat: List[float],
+                 lng: List[float],
+                 weights: Optional[List[float]] = None,
+                 method=KMeans,
+                 n_clusters: int = 2) -> None:
         self.lat = lat
         self.lng = lng
         self.weights = weights
@@ -125,8 +125,9 @@ class GravityCenters:
         """
         cogs_color = {cog: (random.random(), random.random(), random.random()) for cog in df.Cluster.unique()}
 
-        for i, row in df.iterrows():
+        for _, row in df.iterrows():
             x = [row.Longitude, row.CoGLongitude]
             y = [row.Latitude, row.CoGLatitude]
             plt.plot(x, y, marker="o", color=cogs_color[row.Cluster])
+
         plt.show()
